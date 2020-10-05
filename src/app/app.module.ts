@@ -18,7 +18,8 @@ import { VideoNewComponent } from './components/video-new/video-new.component';
 // importamos servicios
 import { IdentityGuard } from './services/identity.guard';
 import { UserService } from './services/user.service';
-import { VideoEditComponent } from './components/video-edit/video-edit.component';  
+import { VideoEditComponent } from './components/video-edit/video-edit.component';
+import { VideoDetailComponent } from './components/video-detail/video-detail.component';  
 
 
 @NgModule({
@@ -30,7 +31,8 @@ import { VideoEditComponent } from './components/video-edit/video-edit.component
     LoginComponent,
     UserEditComponent,
     VideoNewComponent,
-    VideoEditComponent
+    VideoEditComponent,
+    VideoDetailComponent
   ],
   imports: [
     BrowserModule,

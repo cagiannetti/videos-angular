@@ -19,7 +19,7 @@
 
           <!--botones-->
           <div class="video-buttons mt-3">
-            <a href="#" class="btn btn-sm btn-success mr-2">Leer</a>
+            <a  [routerLink]="['/video', video.id]" class="btn btn-sm btn-success mr-2">Ver</a>
             <a class="btn btn-sm btn-warning mr-2" [routerLink]="['/editar-favorito', video.id]">Editar</a>
             <!-- Button trigger modal -->
             <button type="button" class="btn btn-sm btn-danger" data-toggle="modal" [attr.data-target]="'#borrar'+video.id">
