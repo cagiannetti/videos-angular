@@ -17,7 +17,8 @@ import { VideoNewComponent } from './components/video-new/video-new.component';
 
 // importamos servicios
 import { IdentityGuard } from './services/identity.guard';
-import { UserService } from './services/user.service';  
+import { UserService } from './services/user.service';
+import { VideoEditComponent } from './components/video-edit/video-edit.component';  
 
 
 @NgModule({
@@ -28,7 +29,8 @@ import { UserService } from './services/user.service';
     RegisterComponent,
     LoginComponent,
     UserEditComponent,
-    VideoNewComponent
+    VideoNewComponent,
+    VideoEditComponent
   ],
   imports: [
     BrowserModule,
